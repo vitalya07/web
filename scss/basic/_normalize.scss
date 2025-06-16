@@ -21,4 +21,13 @@ ul {
 }
 button {
     border: none;
+    &:focus {
+        outline: 1px solid rgba(0, 0, 0, 0);
+    }
+}
+input {
+    border: none;
+    &:focus {
+        outline: 1px solid rgba(0, 0, 0, 0);
+    }
 }

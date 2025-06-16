@@ -1,0 +1,61 @@
+.feedback {
+    padding: 100px 0;
+    background: url('../img/bg-feedback.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    &-title {
+        max-width: 50%;
+        margin:0 auto 60px auto;
+        &::after {
+            width: 30%;
+        }
+    }
+    &-form {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    &-label {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    &-input {
+        width: 60%;
+        height: 50px;
+        padding: 0 20px;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: $darkColor;
+        line-height: 140%;
+        letter-spacing: normal;
+    }
+    &-btn {
+        width: 60%;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    &-footer {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    }
+    &-warning {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        color: $whiteColor;
+        line-height: 120%;
+        a {
+            display: inline;
+            color: $mainColor;
+        }
+    }
+}

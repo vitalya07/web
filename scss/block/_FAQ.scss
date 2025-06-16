@@ -1,0 +1,28 @@
+.FAQ {
+    padding: 100px 0;
+    &-title {
+        max-width: 620px
+    }
+    &-item {
+        position: relative;
+        &__box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            height: 30px;;
+            background-color: $darkColor;
+            width: 100%;
+        }
+        &__text {
+            color: $whiteColor;
+        }
+        &__descr {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            color: $whiteColor;
+        }
+    }
+}
