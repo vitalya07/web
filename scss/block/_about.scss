@@ -1,0 +1,31 @@
+.about {
+    padding: 100px 0;
+    &-wrapper {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    &-left {
+        width: 600px;
+        &__img {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+        }
+    }
+    &-right {
+        max-width: 800px;
+    }
+    &-info {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 130%;
+        color: $whiteColor;
+        margin-bottom: 20px;
+    }
+}
