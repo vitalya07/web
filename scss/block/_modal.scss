@@ -5,33 +5,96 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 20;
+    transition: all .4s ease;
     &-dialog {
         max-width: 400px;
         margin: 100px auto;
-        padding: 30px 40px;
+        padding: 10px 20px 20px 20px;
         background-color: $mainColor;
+        transition: all .4s ease;
     }
     &-content {
         min-height: 300px;
     }
     &-head {
         display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 50px;
+        align-items: start;
+        justify-content: space-between;
         margin-bottom: 30px;
     }
     &-title {
         font-family: "PT Sans", sans-serif;
-        font-weight: 400;
-        font-size: 22px;
+        font-weight: 700;
+        font-size: 28px;
         line-height: 120%;
-        color: $whiteColor;
+        color: $darkGrayColor;
+        max-width: 240px;
     }
     &-close {
         position: relative;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
         &::after {
-            
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50%;
+            height: 3px;
+            transform: translate(-50%, -50%) rotate(45deg);
+            background-color: $darkGrayColor;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50%;
+            height: 3px;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            background-color: $darkGrayColor;
+        }
+    }
+    &-form {
+        width: 100%;
+    }
+    &-label {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    &-input {
+        width: 100%;
+        height: 60px;
+        padding: 0 20px;
+        border-radius: 15px;
+    }
+    &-btn {
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: $darkGrayColor;
+        color: $mainColor;
+        font-weight: 700;
+        font-size: 22px;
+        transition: all .4s ease;
+        &:hover {
+            background-color: $darkColor;
+        }
+    }
+    &-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    &-warning {
+        font-size: 12px;
+        a {
+            text-transform: lowercase;
+            display: inline;
+            font-size: 12px;
         }
     }
 }

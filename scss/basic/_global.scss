@@ -44,3 +44,17 @@
 
     }
 }
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    .modal-dialog {
+        transform: scale(0);
+    }
+}
+.show {
+    visibility: visible;
+    opacity: 1;
+    .modal-dialog {
+        transform: scale(1);
+    }
+}
