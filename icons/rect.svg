@@ -1,0 +1,16 @@
+<svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_5">
+			<rect id="Up arrow - Square" width="36.000000" height="36.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_5)">
+		<rect id="rect" x="4.500000" y="4.500000" rx="3.000000" width="27.000000" height="27.000000" fill="#D3A162" fill-opacity="1.000000"/>
+		<rect id="rect" x="4.500000" y="4.500000" rx="3.000000" width="27.000000" height="27.000000" stroke="#D3A162" stroke-opacity="1.000000" stroke-width="2.250000" stroke-linejoin="round"/>
+		<path id="path" d="M11.29 22.51L11.29 22.54C10.85 22.99 10.14 22.99 9.7 22.54C9.25 22.1 9.25 21.4 9.7 20.95L9.73 20.95L11.29 22.51ZM26.26 20.95L26.29 20.95C26.74 21.4 26.74 22.1 26.29 22.54C25.85 22.99 25.15 22.99 24.7 22.54L24.7 22.51L26.26 20.95Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M10.5 21.75L18 14.25L25.5 21.75" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.250000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

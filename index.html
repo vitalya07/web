@@ -37,6 +37,30 @@
         <header class="header">
             <div class="container">
                 <div class="header-wrapper">
+                    <div class="hamburger">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <nav class="header-nav hamburger-nav">
+                        <ul class="header-list hamburger-list">
+                            <li class="header-item hamburger-item"><a href="#about" class="header-link hamburger-link">Обо мне</a></li>
+                            <li class="header-item hamburger-item"><a href="#services" class="header-link hamburger-link">Услуги</a></li>
+                            <li class="header-item hamburger-item"><a href="#advantages" class="header-link hamburger-link">Преимущества</a></li>
+                            <li class="header-item hamburger-item"><a href="#portfolio" class="header-link hamburger-link">Портфолио</a></li>  
+                            <li class="header-item hamburger-item"><a href="#portfolio" class="header-link hamburger-link">Блог</a></li>                           
+                            <li class="header-item hamburger-item"><a href="#feedback" class="header-link hamburger-link">Обратная связь</a></li>
+                            <li class="header-item hamburger-item"><a href="tel:79026196792" class="header-link hamburger-link">8-902-619-67-92</a></li>
+                            <li class="header-item hamburger-item">
+                                <a href="https://t.me/79026196792" target="_blank" class="header-link hamburger-icon">
+                                    <img src="icons/telegramma.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="header-item hamburger-item">
+                                <a href="https://wa.me/79026196792" target="_blank" class="header-link hamburger-icon">
+                                    <img src="icons/whatsapp.svg" alt="whatsap">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                     <nav class="header-nav">
                         <ul class="header-list">
                             <li class="header-item"><a href="#about" class="header-link">Обо мне</a></li>
@@ -57,19 +81,20 @@
             </div>
         </header>
         <main class="content">
-            <section class="main">
+            <section class="main" id="main">
                 <div class="container">
                     <h1 class="main-title">Нужен сайт который приносит результат? <span>Сделаю в срок и с прозрачной стоимостью!</span></h1>
                     <button data-modal class="main-btn btn">Оставить заявку</button>
                     <span class="main-text">Или свяжитесь со мной в</span>
                     <div class="main-social">
-                        <a href="https://t.me/79026196792" class="main-link"><span class="main-icon"><img src="icons/telegramma.svg" alt="телеграм"></span></a>
-                         <a href="https://wa.me/79026196792" class="main-link"><span class="main-icon"><img src="icons/whatsapp.svg" alt="телеграм"></span></a>
+                        <a href="https://t.me/79026196792" class="main-link"><span class="main-icon"><img src="icons/telegramma.svg" alt="telegram"></span></a>
+                        <a href="https://wa.me/79026196792" class="main-link"><span class="main-icon"><img src="icons/whatsapp.svg" alt="whatsapp"></span></a>
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
+                    <h2 class="about-title title">Обо мне</h2>
                     <div class="about-wrapper">
                         <div class="about-left">
                             <div class="about-left__img">
@@ -87,7 +112,7 @@
                     </div>
                 </div>
             </section>
-            <section class="services">
+            <section class="services" id="services">
                 <div class="container">
                     <h2 class="services-title title">Заказать разработку</h2>
                     <div class="services-wrapper">
@@ -178,7 +203,7 @@
                     </div>
                 </div>
             </section>
-            <section class="advantages">
+            <section class="advantages" id="advantages">
                 <div class="container">
                     <h2 class="advantages-title title">Почему стоит работать со мной?</h2>
                     <div class="advantages-wrapper">
@@ -234,7 +259,7 @@
                 </div>
                 
             </section>
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
                 <div class="container">
                     <h2 class="portfolio-title title">Мои работы</h2>
                     <div class="splide portfolio-slide" role="group" aria-label="Splide Basic HTML Example">
@@ -320,7 +345,7 @@
                     </div>                    
                 </div>
             </section>
-            <section class="feedback">
+            <section class="feedback" id="feedback">
                 <div class="container">
                     <h2 class="feedback-title title">Есть вопросы? Задайте их мне, я обязательно отвечу!</h2>
                     <div class="feedback-wrapper">
@@ -355,8 +380,13 @@
                 <div class="footer-copy">&copy;Все права защищены</div>
             </div>
         </footer>
+        <a href="#main" class="reverse">
+            <img src="icons/rect.svg" alt="reverse">
+        </a>
     </div>
     <script src="js/splide.min.js"></script>
+    <script src="js/modal.js"></script>
+      <script src="js/hamburger.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

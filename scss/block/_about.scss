@@ -1,5 +1,8 @@
 .about {
     padding: 100px 0;
+    &-title {
+        max-width: 190px;
+    }
     &-wrapper {
         display: flex;
         align-items: start;
@@ -22,6 +25,7 @@
         max-width: 800px;
     }
     &-info {
+        font-family: "PT Sans", sans-serif;
         font-weight: 500;
         font-size: 22px;
         line-height: 130%;
