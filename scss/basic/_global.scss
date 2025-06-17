@@ -58,3 +58,19 @@
         transform: scale(1);
     }
 }
+.splide__arrow--next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -60px;
+    right: 120px;
+    background-color: $mainColor;
+}
+.splide__arrow--prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -60px;
+    left: 80%;
+    background-color: $mainColor;
+}
