@@ -198,6 +198,16 @@
         }
     }
 }
+@media (max-width: 650px) {
+    .feedback {
+        &-input {
+            width: 100%;
+        }
+        &-btn {
+            width: 100%;
+        }
+    }
+}
 @media (max-width: 580px) {
     .main {
         &-title {
@@ -216,9 +226,7 @@
             font-size: 30px;
             max-width: 100%;
         }
-        &-form {
-            max-width: 100%;
-        }
+
     }
     .footer {
         &-policy {
@@ -292,11 +300,7 @@
             margin-bottom: 20px;
         }
         &-input {
-            width: 100%;
             height: 40px;
-        }
-        &-btn {
-            width: 100%;
         }
     }
     .footer {
